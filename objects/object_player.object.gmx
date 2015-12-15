@@ -47,12 +47,12 @@
           <argument>
             <kind>1</kind>
             <string>/// Create Body parts
-instance_create(object_playerFeet, x, y);
-instance_create(object_playerLegs, x, y-10);
+instance_create(x, y, object_playerFeet);
+instance_create(x, y-10, object_playerLegs);
 
-instance_create(object_playerLowerTorso, x, y);
-instance_create(object_playerUpperTorso, x, y);
-instance_create(object_playerHead, x, y);
+instance_create(x, y, object_playerLowerTorso);
+instance_create(x , y, object_playerUpperTorso);
+instance_create(x, y, object_playerHead);
 </string>
           </argument>
         </arguments>
