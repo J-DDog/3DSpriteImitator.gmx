@@ -3,7 +3,7 @@
   <spriteName>sprite_legs</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>99</depth>
   <persistent>0</persistent>
   <parentName>object_player</parentName>
   <maskName>&lt;undefined&gt;</maskName>
