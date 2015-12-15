@@ -49,6 +49,10 @@
             <string>/// Create Body parts
 instance_create(object_playerFeet, x, y);
 
+instance_create(object_playerLegs, x, y);
+instance_create(object_playerLowerTorso, x, y);
+instance_create(object_playerUpperTorso, x, y);
+instance_create(object_playerHead, x, y);
 </string>
           </argument>
         </arguments>
